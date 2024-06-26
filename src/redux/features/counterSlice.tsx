@@ -10,7 +10,7 @@ export const counterSlice = createSlice({
         increment: (state) => {
             state.value = state.value + 1
         },
-        incrementByFive: (state, action:PayloadAction<number>) => {
+        incrementByFive: (state, action: PayloadAction<number>) => {
             state.value = state.value + action.payload
         },
         decrement: (state) => {
